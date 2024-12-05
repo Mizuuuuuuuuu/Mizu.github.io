@@ -78,7 +78,7 @@
 
     <!-- Header -->
     <header>
-        <h1>Your Name</h1>
+        <h1>Chistian Jake Perandos</h1>
         <p>Web Developer | Open Source Contributor | GitHub Enthusiast</p>
     </header>
 
