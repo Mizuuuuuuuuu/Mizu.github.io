@@ -3,74 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GitHub Portfolio">
-    <title>Your GitHub Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file -->
+    <title>Portfolio - Your Name</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* Basic Reset */
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
             color: #333;
+            background-color: #f4f4f4;
         }
         header {
-            background-color: #24292f;
-            color: white;
-            padding: 20px 0;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
             text-align: center;
         }
         header h1 {
-            margin: 0;
+            font-size: 2.5rem;
         }
         nav {
+            background: #444;
             text-align: center;
-            background-color: #333;
-            padding: 10px;
+            padding: 0.5rem 0;
         }
         nav a {
             color: white;
-            margin: 0 20px;
+            margin: 0 15px;
             text-decoration: none;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            color: #f4f4f4;
+            text-decoration: underline;
         }
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 15px;
         }
         section {
-            margin: 40px 0;
-        }
-        .about, .projects, .contact {
-            background-color: white;
+            background: #fff;
+            margin: 20px 0;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            margin-bottom: 15px;
+            color: #333;
         }
         .about img {
-            max-width: 200px;
+            max-width: 150px;
             border-radius: 50%;
-            margin-bottom: 20px;
+            margin: 10px 0;
         }
         .projects .project {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
-        .projects .project img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
+        .projects a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .projects a:hover {
+            text-decoration: underline;
         }
         footer {
-            background-color: #24292f;
-            color: white;
             text-align: center;
-            padding: 20px;
+            padding: 10px;
+            background: #333;
+            color: white;
         }
         footer a {
-            color: #58a6ff;
+            color: #007bff;
             text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -78,8 +91,8 @@
 
     <!-- Header -->
     <header>
-        <h1>Chistian Jake Perandos</h1>
-        <p>Web Developer | Open Source Contributor | GitHub Enthusiast</p>
+        <h1>Your Name</h1>
+        <p>Web Developer | Designer | Open Source Enthusiast</p>
     </header>
 
     <!-- Navigation -->
@@ -89,46 +102,36 @@
         <a href="#contact">Contact</a>
     </nav>
 
-    <!-- Main Content -->
+    <!-- About Section -->
     <div class="container">
-        <!-- About Section -->
         <section id="about" class="about">
             <h2>About Me</h2>
-            <div style="display: flex; align-items: center;">
-                <img src="your-photo.jpg" alt="Your photo">
-                <p>Hello! I'm a passionate web developer and an open-source contributor. I specialize in creating web applications using HTML, CSS, JavaScript, and various modern technologies. Explore my GitHub projects to see what I've built so far!</p>
-            </div>
+            <img src="your-photo.jpg" alt="Your Photo">
+            <p>Hello! I'm <strong>Your Name</strong>, a passionate web developer specializing in creating beautiful, functional, and user-friendly websites. I enjoy solving problems and constantly learning new technologies to improve my craft.</p>
+            <p>With experience in HTML, CSS, JavaScript, and various frameworks, I build responsive and efficient websites for businesses and individuals. Feel free to check out my projects below!</p>
         </section>
 
         <!-- Projects Section -->
         <section id="projects" class="projects">
-            <h2>GitHub Projects</h2>
+            <h2>My Projects</h2>
             <div class="project">
-                <div style="width: 45%;">
-                    <h3>Project 1: <a href="https://github.com/your-username/project1" target="_blank">Project Name</a></h3>
-                    <p>A brief description of what the project is about. This could include the technologies used and its purpose. For example: "A to-do list app built with React.js that allows users to manage tasks efficiently."</p>
-                </div>
-                <div style="width: 45%;">
-                    <h3>Project 2: <a href="https://github.com/your-username/project2" target="_blank">Project Name</a></h3>
-                    <p>A brief description of the second project. "A weather app that pulls live data from an API and displays weather information for any city worldwide."</p>
-                </div>
+                <h3>Project 1: <a href="https://github.com/your-username/project1" target="_blank">Portfolio Website</a></h3>
+                <p>A responsive portfolio website built using HTML, CSS, and JavaScript. This project showcases my design skills and coding ability.</p>
             </div>
             <div class="project">
-                <div style="width: 45%;">
-                    <h3>Project 3: <a href="https://github.com/your-username/project3" target="_blank">Project Name</a></h3>
-                    <p>Description of the project. "A simple personal blog site built with Node.js and Express, where users can write and share articles."</p>
-                </div>
-                <div style="width: 45%;">
-                    <h3>Project 4: <a href="https://github.com/your-username/project4" target="_blank">Project Name</a></h3>
-                    <p>Description of another project. "An e-commerce platform built with Vue.js and Firebase, enabling users to browse and purchase items online."</p>
-                </div>
+                <h3>Project 2: <a href="https://github.com/your-username/project2" target="_blank">E-commerce Platform</a></h3>
+                <p>An e-commerce web application built with React.js and Firebase. It includes features like user authentication and product search functionality.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: <a href="https://github.com/your-username/project3" target="_blank">Weather App</a></h3>
+                <p>A weather application that uses an API to fetch live weather data for any location. Built with HTML, CSS, and JavaScript.</p>
             </div>
         </section>
 
         <!-- Contact Section -->
         <section id="contact" class="contact">
             <h2>Contact Me</h2>
-            <p>If you'd like to collaborate or ask any questions, feel free to reach out!</p>
+            <p>If you'd like to work together, feel free to reach out!</p>
             <ul>
                 <li>Email: your-email@example.com</li>
                 <li>GitHub: <a href="https://github.com/your-username" target="_blank">your-username</a></li>
@@ -139,7 +142,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Your Name | Check out my repositories on <a href="https://github.com/your-username" target="_blank">GitHub</a></p>
+        <p>&copy; 2024 Your Name | <a href="https://github.com/your-username" target="_blank">GitHub</a></p>
     </footer>
 
 </body>
