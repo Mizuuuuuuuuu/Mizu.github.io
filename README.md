@@ -91,7 +91,7 @@
 
     <!-- Header -->
     <header>
-        <h1>Your Name</h1>
+        <h1>Chrisitian Jake Perandos</h1>
         <p>Web Developer | Designer | Open Source Enthusiast</p>
     </header>
 
