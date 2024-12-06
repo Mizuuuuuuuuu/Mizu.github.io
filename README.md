@@ -89,7 +89,6 @@
         ChristianJakePortfolio
     </header>
     <section class="hero">
-        <img src="https://via.placeholder.com/400x400" alt="Portfolio Image">
         <h2>Hello, I'm Christian Jake</h2>
     <section class="portfolio">
     <h2>My Portfolio</h2>
