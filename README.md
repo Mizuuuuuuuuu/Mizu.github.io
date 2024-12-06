@@ -63,7 +63,6 @@
         <h1>Christian Jake Portfolio</h1>
     </header>
     <section class="hero">
-        <img src="https://via.placeholder.com/400" alt="Portfolio Cover Image">
         <h2>Hello, I'm Christian Jake</h2>
     </section>
     <section class="portfolio">
@@ -71,10 +70,10 @@
         <p>Welcome to my portfolio. Here you'll find a selection of my work. Explore my projects to learn more about what I do.</p>
         <div class="projects">
             <div class="project">
-                <img src="https://via.placeholder.com/200" alt="Project 1">
+                <img src="https://drive.google.com/drive/folders/1G-eseiuBmRsgKfZcrth4NenZLadmftU_">
             </div>
             <div class="project">
-                <img src="https://via.placeholder.com/200" alt="Project 2">
+                <img src="https://drive.google.com/drive/folders/1HPB9NCZaSVZPbrTbWTcEcFM0y-d0Li3i">
             </div>
         </div>
     </section>
