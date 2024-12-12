@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,29 +12,47 @@
             color: #fff;
         }
         header {
-            padding: 20px;
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
             background-color: #4d2b20;
+            color: #fff;
+        }
+        header .logo {
             font-size: 1.5rem;
+            font-weight: bold;
+        }
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        header nav a:hover {
+            text-decoration: underline;
         }
         .hero {
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 50px 20px;
+            justify-content: center;
             text-align: center;
-            background: url('Bubble-Float.jpg') no-repeat center center/cover;
+            height: 100vh;
+            background: url('https://via.placeholder.com/1500x1000') no-repeat center center/cover;
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
-        .hero img {
-            max-width: 400px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-        }
-        .hero h2 {
-            font-size: 2.5rem;
+        .hero h1 {
+            font-size: 3rem;
             margin: 0;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 10px;
         }
         .portfolio {
             padding: 50px 20px;
@@ -66,6 +85,10 @@
             max-width: 100%;
             border-radius: 5px;
         }
+        .portfolio .project p {
+            margin: 10px 0;
+            font-size: 1rem;
+        }
         .portfolio .project button {
             margin-top: 10px;
             padding: 10px 15px;
@@ -89,26 +112,39 @@
 </head>
 <body>
     <header>
-        ChristianJakePortfolio
+        <div class="logo">Christian Jake Portfolio</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
     </header>
-    <section class="portfolio">
-    <h2>My Portfolio</h2>
-    <p>Welcome to my portfolio. Here you'll find a selection of my work. Explore my projects to learn more about what I do.</p>
-    <div class="projects">
-        <div class="project">
-            <img src="Ordering system design.png" alt="Project 1">
-            <a href="https://drive.google.com/drive/folders/1G-eseiuBmRsgKfZcrth4NenZLadmftU_">
-                <button>View More</button>
-            </a>
+    <section id="home" class="hero">
+        <h1>Hello, I'm Christian Jake</h1>
+        <p>A College Student in Quezon City University</p>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <h2>My Portfolio</h2>
+        <p>Welcome to my portfolio. Here you'll find a selection of my work. Explore my projects to learn more about what I do.</p>
+        <div class="projects">
+            <div class="project">
+                <img src="https://via.placeholder.com/200x150" alt="My Project Design">
+                <p>My Project Design</p>
+                <a href="https://drive.google.com/drive/folders/1G-eseiuBmRsgKfZcrth4NenZLadmftU_">
+                    <button>View More</button>
+                </a>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/200x150" alt="My Project Design">
+                <p>My Project Design</p>
+                <a href="https://drive.google.com/drive/folders/1HPB9NCZaSVZPbrTbWTcEcFM0y-d0Li3i">
+                    <button>View More</button>
+                </a>
+            </div>
         </div>
-        <div class="project">
-            <img src="Payroll System Design.png" alt="Project 2">
-            <a href="https://drive.google.com/drive/folders/1HPB9NCZaSVZPbrTbWTcEcFM0y-d0Li3i">
-                <button>View More</button>
-            </a>
-        </div>
-    </div>
-</section>
+    </section>
     <footer>
         &copy; 2024 Christian Jake Portfolio. All rights reserved.
     </footer>
