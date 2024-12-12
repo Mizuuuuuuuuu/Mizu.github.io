@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -110,6 +109,8 @@
         </div>
     </div>
 </section>
-
-
-revised this code
+    <footer>
+        &copy; 2024 Christian Jake Portfolio. All rights reserved.
+    </footer>
+</body>
+</html>
