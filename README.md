@@ -22,7 +22,7 @@
             align-items: center;
             padding: 50px 20px;
             text-align: center;
-            background: url"Bubble-Float.webp" no-repeat center center/cover;
+            background: url "Bubble-Float.webp" no-repeat center center/cover;
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
