@@ -123,14 +123,13 @@
     </header>
     <section id="home" class="hero">
         <h1>Hello, I'm Christian Jake</h1>
-        <p>A College Student in Quezon City University</p>
     </section>
     <section id="portfolio" class="portfolio">
         <h2>My Portfolio</h2>
         <p>Welcome to my portfolio. Here you'll find a selection of my work. Explore my projects to learn more about what I do.</p>
         <div class="projects">
             <div class="project">
-                <img src="https://via.placeholder.com/200x150" alt="My Project Design">
+                <img src="Ordering system design.png" alt="My Project Design">
                 <p>My Project Design</p>
                 <a href="https://drive.google.com/drive/folders/1G-eseiuBmRsgKfZcrth4NenZLadmftU_">
                     <button>View More</button>
