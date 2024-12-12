@@ -102,7 +102,7 @@
             </a>
         </div>
         <div class="project">
-            <img src="https://via.placeholder.com/200x150" alt="Project 2">
+            <img src="Payroll System Design.png" alt="Project 2">
             <a href="https://drive.google.com/drive/folders/1HPB9NCZaSVZPbrTbWTcEcFM0y-d0Li3i">
                 <button>View More</button>
             </a>
