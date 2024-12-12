@@ -23,7 +23,7 @@
             align-items: center;
             padding: 50px 20px;
             text-align: center;
-            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            background: url('https://via.placeholder.com/1500x500](https://drive.google.com/drive/folders/1vK_BOC8HX104xWLYbv548YtlzFNfU-os') no-repeat center center/cover;
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
