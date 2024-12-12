@@ -113,7 +113,6 @@
     <header>
         <div class="logo">Christian Jake Portfolio</div>
         <nav>
-            <a href="#home">Home</a>
             <a href="#portfolio">Portfolio</a>
         </nav>
     </header>
