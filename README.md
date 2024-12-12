@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -42,7 +41,7 @@
             justify-content: center;
             text-align: center;
             height: 100vh;
-            background: url('Bubble-Float.jpg') no-repeat center center/cover;
+            background: url('1 (1).jpg') no-repeat center center/cover;
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
@@ -136,7 +135,7 @@
                 </a>
             </div>
             <div class="project">
-                <img src="https://via.placeholder.com/200x150" alt="My Project Design">
+                <img src="Payroll System Design.png" alt="My Project Design">
                 <p>My Project Design</p>
                 <a href="https://drive.google.com/drive/folders/1HPB9NCZaSVZPbrTbWTcEcFM0y-d0Li3i">
                     <button>View More</button>
