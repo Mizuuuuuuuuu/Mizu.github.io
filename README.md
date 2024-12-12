@@ -8,7 +8,7 @@
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background-color: #000;
+            background: linear-gradient(135deg, #000, #4d2b20);
             color: #fff;
         }
         header {
@@ -23,6 +23,9 @@
             align-items: center;
             padding: 50px 20px;
             text-align: center;
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
         .hero img {
             max-width: 400px;
@@ -58,6 +61,7 @@
             padding: 15px;
             width: 200px;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
         .portfolio .project img {
             max-width: 100%;
