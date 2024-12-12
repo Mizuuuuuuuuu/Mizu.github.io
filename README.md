@@ -96,7 +96,7 @@
     <p>Welcome to my portfolio. Here you'll find a selection of my work. Explore my projects to learn more about what I do.</p>
     <div class="projects">
         <div class="project">
-            <img src="https://drive.google.com/drive/folders/1G-eseiuBmRsgKfZcrth4NenZLadmftU_" alt="Project 1">
+            <img src="Ordering system design.png" alt="Project 1">
             <a href="https://drive.google.com/drive/folders/1G-eseiuBmRsgKfZcrth4NenZLadmftU_">
                 <button>View More</button>
             </a>
