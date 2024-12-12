@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -89,19 +90,25 @@
     </header>
     <section class="hero">
         <h2>Hello, I'm Christian Jake</h2>
+    </section>
     <section class="portfolio">
-    <h2>My Portfolio</h2>
-    <p>Welcome to my portfolio. Here you'll find a selection of my work. Explore my projects to learn more about what I do.</p>
-    <div class="projects">
-        <div class="project">
-            <a href="https://drive.google.com/drive/folders/1G-eseiuBmRsgKfZcrth4NenZLadmftU_">
-                <button>View More</button>
-            </a>
+        <h2>My Portfolio</h2>
+        <p>Welcome to my portfolio. Here you'll find a selection of my work. Explore my projects to learn more about what I do.</p>
+        <div class="projects">
+            <div class="project">
+                <a href="https://drive.google.com/drive/folders/1G-eseiuBmRsgKfZcrth4NenZLadmftU_">
+                    <button>View More</button>
+                </a>
+            </div>
+            <div class="project">
+                <a href="https://drive.google.com/drive/folders/1HPB9NCZaSVZPbrTbWTcEcFM0y-d0Li3i">
+                    <button>View More</button>
+                </a>
+            </div>
         </div>
-        <div class="project">
-            <a href="https://drive.google.com/drive/folders/1HPB9NCZaSVZPbrTbWTcEcFM0y-d0Li3i">
-                <button>View More</button>
-            </a>
-        </div>
-    </div>
-</section>
+    </section>
+    <footer>
+        &copy; 2024 Christian Jake Portfolio. All rights reserved.
+    </footer>
+</body>
+</html>
