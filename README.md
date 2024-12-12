@@ -42,7 +42,7 @@
             justify-content: center;
             text-align: center;
             height: 100vh;
-            background: url('https://via.placeholder.com/1500x1000') no-repeat center center/cover;
+            background: url('Bubble-Float.jpg') no-repeat center center/cover;
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
