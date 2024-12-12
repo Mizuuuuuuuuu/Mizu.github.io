@@ -115,9 +115,6 @@
         <nav>
             <a href="#home">Home</a>
             <a href="#portfolio">Portfolio</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact Me</a>
         </nav>
     </header>
     <section id="home" class="hero">
